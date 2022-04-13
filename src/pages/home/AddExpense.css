@@ -1,0 +1,18 @@
+.add-expense{
+    border: 10px solid red;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media(max-width: 1024px){
+    .add-expense{
+        width: 90%; 
+    }
+}
+
+@media(max-width: 512px){
+    .add-expense{
+        width: 100%; 
+    }
+}

@@ -1,0 +1,56 @@
+.topFold{
+    display: flex;
+ 
+    align-items: center;
+    margin: 6px 12px;
+    padding: 12px 0;
+}
+.home-topFold{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    background-color: beige;
+}
+.searchBar input{
+    width: 100%;
+    background-color: beige;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+.add-button button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid white;
+}
+
+.add-topFold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.add-topfold-button{
+    display: flex;
+    align-items: center;
+   
+}
+.add-topfold-button button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border-style: none;
+    border: 2px solid white;
+}
